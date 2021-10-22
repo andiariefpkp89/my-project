@@ -1,5 +1,5 @@
 <template>
-    <h2>Ini adalah component Content</h2>
+    <div>Ini adalah component Content</div>
 </template>
 
 <script>
@@ -8,6 +8,9 @@ export default {
 }
 </script>
 
-<style>
-    
+<style scope>
+    body {
+        background: yellow;
+        height: 80vh;
+    }
 </style>

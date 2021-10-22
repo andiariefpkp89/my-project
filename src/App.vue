@@ -1,21 +1,28 @@
 <template>
-  <h1 class="text-danger">Hello World</h1>
-  <Header />
+  <h1 class="text-primary" @click="helloWorld()">Hello World</h1>
 </template>
 
 <script>
-import Header from "./components/Header";
+
 
 export default {
   name: "App",
-  components: {
-    Header,
+  components: {},
+  setup() {
+    const helloWorld = () => {
+      alert("Hallo Guys");
+    };
+
+    return {
+      helloWorld,
+    };
   }
 };
 </script>
 
 <style>
-  .text-danger {
-    color: red;
+  body {
+    padding: 0;
+    margin: 0;
   }
 </style>

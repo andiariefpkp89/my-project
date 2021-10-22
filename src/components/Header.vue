@@ -1,5 +1,7 @@
 <template>
-    <h2>Ini adalah component Header</h2>
+    <nav>
+
+    </nav>
 </template>
 
 <script>
@@ -9,5 +11,8 @@ export default {
 </script>
 
 <style>
-    
+    nav {
+        height: 60px;
+        background: red;
+    }
 </style>
